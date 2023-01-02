@@ -1,0 +1,77 @@
+.footer {
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    margin: 0;
+}
+
+.footer-conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.contato-creditos {
+    font-family: monospace;
+    color: white;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+}
+.footer-logos {
+    width: 52px;
+    height: 52px;
+}
+
+#gmail {
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 10px;
+    padding: 7px;
+    width: 36px;
+    height: 36px;
+    background-color: rgb(160, 158, 158);
+}
+
+.copyright {
+    
+    font-size: 0.6em;
+    padding-top: 2em;
+    text-align: center;
+    padding-bottom: 0.6em;
+}
+
+@media (max-width:1200px) {
+    .contato-creditos{
+        text-align: center;
+    }
+    
+    .footer-conteiner {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .icons{
+        justify-content: center;
+    }
+}
+
+.links1, .links2, .links3 {
+    height: 52px;
+    width: 52px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.links:hover {
+    transform: scale(110%);
+}
+

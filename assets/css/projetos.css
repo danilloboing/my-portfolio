@@ -1,0 +1,123 @@
+
+#projetos {
+    border-top: 1px solid #2edf19;
+}
+
+.projetos h2{
+    text-align: center;
+    font-family:'Audiowide', cursive;
+    font-size: 2em;
+    margin: 0;
+}
+
+.projetos h2 {
+    padding: 100px;
+}
+
+button {
+
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #000000;
+    border: 1px solid ;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap:35px;
+    margin: 2em auto;
+}
+
+button:hover {
+    background-color: #00f020;
+    color: #000000;
+    border: 1px solid black;
+    
+}
+
+.github-link {
+    font-family: monospace;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap:35px;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+.github-link a:hover {
+    color: #00f020;
+}
+
+.pro {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.pro div p {
+    font-family: audiowide;
+    font-size: 20px;
+    color: #000000;
+}
+
+.pro:hover {
+    letter-spacing: 5px;
+}
+
+.pro div {
+    background-color: #f3f3f3;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width:1200px) {
+  .projetos{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .projetos-itens {
+      flex-direction: row;
+  }
+
+}
+@media (max-width:950px) {
+    .pro {
+        max-width: 300px;
+    }
+
+}

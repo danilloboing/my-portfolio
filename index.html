@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/inicio.css">
+    <link rel="stylesheet" href="Assets/css/sobre-mim.css">
+    <link rel="stylesheet" href="Assets/css/projetos.css">
+    <link rel="stylesheet" href="Assets/css/habilidades.css">
+    <link rel="stylesheet" href="Assets/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <title>Portfolio | Danillo Boing</title>
+</head>
+
+    <body onload="typeWriter(fName);">
+        <!-- menu -->
+        <header>
+          
+          <input
+          id="close-menu"
+          class="close-menu"
+          type="checkbox"
+          aria-label="close-menu"
+          role="button"
+        />
+        <label
+          class="close-menu-label"
+          for="close-menu"
+          title="close menu"
+        ></label>
+
+            <div class="barra-menu">
+              <div class="menu-centro">
+                <div class="barra-conteiner centralizador">
+                  <div class="logo esquerda">
+                    <a href="index.html"><img src="Assets/img/logo-branca.png" alt="Logo - Danillo Boing" id="logo"></a>
+                    <nav class="barra-navegacao">
+                        <ul onclick="getElementById('close-menu').checked=false;">
+                            <li><a href="#inicio"> Início</a></li>
+                            <li><a href="#sobre-mim">Sobre mim</a></li>
+                            <li><a href="#projetos">Projetos</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                        </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </header>
+        
+        <section id="inicio">
+            <div class="altura-ajuste">
+                <div class="inicio centralizador">
+                    <div class="ajustador organizador">
+                        <div class="apresentacao">
+                            <p class="descricao">
+                            <p>Olá, eu sou </p>    
+                            <p style="display: inline" class="meu-nome">Danillo Boing.</p>    
+                            <p>Desenvolvedor Front-end</p>
+                        </div>
+                        <div class="desenho">
+                            <img
+                                class="desenho2"
+                                src="/assets/img/foguete.png"
+                                alt="meu-logo"/>
+                            <img
+                                class="desenho3"
+                                src="/assets/img/nuvem.png"
+                                alt="meu-logo"/>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mim">
+            <div class="centralizador">
+                <div class="ajustador-2">
+                    <img  class="imagem-conectando" src="https://media.tenor.com/arL-Och6Y7sAAAAM/connecting-loading.gif">
+                    <div class="sobre-mim">
+                        <h1>Sobre mim</h1>
+                            <p>Meu nome é Danillo, hoje tenho 21 anos e sou natural de Joinville. Conheci esse mundo da programação em 2022, fiquei entusiasmado
+                            como a lógica e a criatividade são importantes nessa área tão vasta. E de lá pra cá tenho buscado conhecer mais e me inserir
+                            nesse mundo dev.</p>
+                    </div>            
+                </div>
+            </div>
+         </section>
+
+        <section id="projetos">
+            <div class="centralizador projetos">
+                <h2 class="projetos">Projetos</h2>
+                <div class="projetos-itens">
+                    <div class="pro">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro escondido">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro escondido">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                    <div class="pro escondido">
+                        <div class="breve"><p>EM BREVE</p></div>
+                    </div>
+                </div>
+                <button>Ver mais</button>
+                <div class="github-link">
+                <a href="https://github.com/danilloboing?tab=repositories" 
+                    target="_blank">Repositórios no github</a>
+                </div>
+            </div>
+        </section>
+            
+        
+        <section id="habilidades">
+            <div class="centralizador">
+                <div class="habilidades-pd">
+                    <h3 class="project">Habilidades</h3>
+                    <div class="skills-descricao"> <!--as habilidades estão descritas no arquivo Portfolio.js-->
+                        <div class="conteiner-skills">
+                            <div class="skill-box skill1 html-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="Assets/img/html-logo.png"
+                                    alt="html-icon"/>
+                            </div>
+                            <div class="skill-box skill2 css-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="Assets/img/css-logo.png"
+                                    alt="css-icon"/>
+                            </div>
+                            <div class="skill-box skill3 js-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="Assets/img/javascript-logo.png"
+                                    alt="js-icon"/>
+                            </div>
+                            <div class="skill-box skill9 git-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="Assets/img/git-logo.png"
+                                    alt="git-icon"/>
+                            </div>
+                            <div class="skill-box skill10 github-skill">
+                                <img
+                                    class="icones-habilidades"
+                                    src="Assets/img/github-logo.png"
+                                    alt="github-icon"/>
+                            </div>
+                        </div>
+                        <div class="conteiner-descricao">
+                            <p class="texto-descricao">
+                              /* Passe o mouse por cima de alguma habilidade para ler a
+                              descrição */
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-conteiner">
+                <div class="icons">
+                    <div class="links links1">
+                        <a href="https://github.com/danilloboing" target="_blank">
+                            <img
+                                class="footer-logos"
+                                src="/assets/img/githubff.svg"
+                                alt="github-icon"/>
+                        </a>
+                    </div>
+                    <div class="links links2">
+                        <a 
+                            href="https://www.linkedin.com/in/danilloboing/"
+                            target="_blank">
+                            <img
+                                class="footer-logos"
+                                src="/assets/img/linkedinF2.svg"
+                                alt="linkedin-icon"/>
+                        </a>
+                    </div>
+                    <div class="links links3">
+                        <a
+                            href="https://api.whatsapp.com/send?%201=pt_BR&phone=554791131104"
+                            target="_blank">
+                            <img
+                                class="footer-logos"
+                                src="/assets/img/whatsapp.png"
+                                alt="whatsapp-icon"/>
+                        </a>
+                    </div>
+                    <div class="links links3">
+                        <a
+                            href="mailto:danillo.boing.souza@gmail.com"
+                            target="_blank">
+                            <img
+                                class="footer-logos"
+                                id="gmail"
+                                src="/assets/img/gmail.png"
+                                alt="gmail:danillo.boing.souza@gmail.com"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; Portfolio - Danillo Boing - 2022</p>
+        </footer>
+        <script src="Assets/js/maquina_escrever.js"></script>
+        <script src="Assets/js/scroll.js"></script>
+        <script src="Assets/js/Portfolio.js"></script>
+    </body>
+</html>
